@@ -1,4 +1,6 @@
 ﻿
+AppSecret=sadasdasklkdklsadjdklasfgdg
+
 $netAdapterList = Get-NetAdapter
 
 foreach($netAdapter in $netAdapterList){

@@ -1,4 +1,4 @@
-﻿
+﻿$password="asdasdas"
 $date = Get-Date -Format "ddMMyyyy-HHmm"
 $output = '.\mailboxPermissions-' + $date + '.csv'
 $newCSV = {} | Select "Mailbox", "User", "Permissions", "IsInherited", "Deny" | Export-Csv $output -NoTypeInformation
